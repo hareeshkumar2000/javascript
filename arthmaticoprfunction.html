@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		if (true) {
+
+		function number(a,b) {
+			var arth,add,sub,mul,div,mod;
+
+			arth = prompt("entet arthmetic operator:")
+		      add=a+b
+		      sub=a-b
+		      mul=a*b
+		      div=a/b
+		      mod=a%b
+			  
+;
+			switch(arth){
+		    case 'add':
+			document.writeln("addition is: "+add)
+			var ch=confirm("do you want to continue")
+
+	        break;
+			case 'sub':
+			document.writeln("substraction is: "+sub)
+			break;
+			case 'mul':
+			document.writeln("multification is: "+mul)
+			break;
+			case 'div':
+			document.writeln("division is: "+div)
+			break;
+			case 'mod':
+			document.writeln("modulus is:"+mod)
+			break;
+			
+		    default :
+		    document.writeln("<h1>invalid operation</h1>")
+
+		}
+		  
+		}
+		number(8,4)
+		}
+		else
+			document.writeln("no")
+		</script>
+
+</body>
+</html>

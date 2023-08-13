@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>delete duplicate element</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/*function display(num){
+			let num=[2,3,4,5,5,2,3,2]
+			let har=[...new Set(num)]
+			document.writeln(har)
+		}
+		display()*/
+		let arr = ["apple", "mango", "apple",
+          "orange", "mango", "mango"];
+  
+function removeDuplicates(arr) {
+    return arr.filter((item,
+        index) => arr.indexOf(item) === index);
+}
+document.writeln(removeDuplicates(arr));
+	</script>
+
+</body>
+</html>
